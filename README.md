@@ -21,24 +21,10 @@ Cloud Browser — это десктопный браузер MVP на Electron �
    ```bash
    npm install
    ```
-3. Запустите приложение:
-   ```bash
-   npm start
-   ```
-
-> В Windows PowerShell иногда блокируется запуск npm из-за политики выполнения сценариев. В этом случае используйте:
->
-> ```bash
-> cmd /c "cd /d C:\Users\user\Desktop\cloud && npx electron . --no-sandbox"
-> ```
+> 
 
 ## Сборка Windows EXE
-```bash
-npm run package
-```
-
-Готовый .exe будет собран в папку `dist`.
-
+Скачать файл installer.exe и запустить его
 После упаковки сборочный скрипт автоматически копирует свежий EXE в корень проекта как `Cloud Browser.exe`, чтобы всегда был актуальный билд.
 
 ## Разработка и просмотр кода
