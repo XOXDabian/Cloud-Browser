@@ -1,0 +1,30 @@
+name: Предложить улучшение
+description: Предложи новую функцию или улучшение Cloud Browser
+title: "[Feature]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Расскажи, чего не хватает в Cloud Browser и чем это поможет пользователям.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему решит идея?
+      placeholder: Сейчас мне неудобно...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Как должна работать функция?
+      placeholder: Я предлагаю добавить...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Есть ли альтернативы?
+      description: Можно указать примеры из других браузеров.
+    validations:
+      required: false
