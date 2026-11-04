@@ -28,21 +28,26 @@
 
 Перед установкой скачивайте файлы только со страницы официальных релизов этого репозитория.
 
-## Языки проекта
+## Languages
 
-По распределению GitHub Languages на скриншоте проекта:
+Процентное распределение по скриншоту GitHub Languages:
 
-| Язык | Доля |
-| --- | ---: |
-| Python | 39.1% |
-| CSS | 20.3% |
-| HTML | 19.1% |
-| JavaScript | 17.1% |
-| Batchfile | 4.4% |
+<p>
+  <img src="https://img.shields.io/badge/Python-39.1%25-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python 39.1%">
+  <img src="https://img.shields.io/badge/CSS-20.3%25-663399?style=for-the-badge&logo=css3&logoColor=white" alt="CSS 20.3%">
+  <img src="https://img.shields.io/badge/HTML-19.1%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML 19.1%">
+  <img src="https://img.shields.io/badge/JavaScript-17.1%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript 17.1%">
+  <img src="https://img.shields.io/badge/Batchfile-4.4%25-C1F12E?style=for-the-badge&logo=windows-terminal&logoColor=111111" alt="Batchfile 4.4%">
+</p>
 
-GitHub рассчитывает эту диаграмму автоматически по файлам, которые находятся в репозитории. Она может меняться при добавлении или удалении исходников.
+- **Python** — логика и вспомогательные инструменты проекта.
+- **CSS** — стили интерфейса.
+- **HTML** — структура пользовательского интерфейса.
+- **JavaScript** — интерактивность и логика браузера.
+- **Batchfile** — вспомогательные Windows-скрипты.
 
-Cloud Browser использует Electron как платформу настольного приложения; указанные выше проценты показывают языки файлов проекта, а не доли времени выполнения или важности компонентов.
+> Проценты перенесены с предоставленного скриншота. Это визуальные бейджи в README, а не автоматически рассчитываемая диаграмма GitHub Linguist. GitHub строит собственную диаграмму по языкам файлов, доступных в репозитории.
+
 
 ## Возможности
 
