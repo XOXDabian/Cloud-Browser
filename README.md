@@ -1,107 +1,139 @@
 # ☁️ Cloud Browser
 
-**Cloud Browser** — десктопный браузер на Electron с тёмным стеклянным интерфейсом, вкладками, боковой панелью Cloud Space и встроенными инструментами приватности.
+**Твой интернет. Твоё пространство.**
+
+Cloud Browser — настольный браузер на Electron с тёмным стеклянным интерфейсом, быстрым доступом к сайтам и инструментами приватности.
 
 <p align="center">
-  <a href="https://github.com/XOXDabian/Cloud-Browser/releases/latest">
-    <img src="https://img.shields.io/badge/Скачать-Windows-438DFF?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать для Windows">
+  <a href="https://github.com/XOXDabian/Cloud-Browser/releases/tag/new">
+    <img src="https://img.shields.io/badge/Скачать-Windows-3978E8?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать для Windows">
   </a>
   <a href="https://github.com/XOXDabian/Cloud-Browser/releases">
-    <img src="https://img.shields.io/github/v/release/XOXDabian/Cloud-Browser?style=for-the-badge&label=Последний%20релиз" alt="Последний релиз">
+    <img src="https://img.shields.io/badge/Версия-V0.4-22A06B?style=for-the-badge" alt="Cloud Browser V0.4">
   </a>
-  <a href="https://github.com/XOXDabian/Cloud-Browser">
-    <img src="https://img.shields.io/github/license/XOXDabian/Cloud-Browser?style=for-the-badge" alt="Лицензия">
+  <a href="https://github.com/XOXDabian/Cloud-Browser/issues">
+    <img src="https://img.shields.io/github/issues/XOXDabian/Cloud-Browser?style=for-the-badge&label=Issues" alt="Issues">
   </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-AGPL--3.0-blue?style=for-the-badge" alt="AGPL-3.0">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#скачать">Скачать</a> ·
+  <a href="#возможности">Возможности</a> ·
+  <a href="#обратная-связь">Обратная связь</a> ·
+  <a href="#english">English</a>
 </p>
 
 ---
 
-## Скачать Cloud Browser
+## Скачать
 
-**[Открыть все версии в GitHub Releases](https://github.com/XOXDabian/Cloud-Browser/releases)**
+<p align="center">
+  <a href="https://github.com/XOXDabian/Cloud-Browser/releases/download/new/Cloud.Browser.Setup.0.4.exe">
+    <img src="https://img.shields.io/badge/⬇%20DOWNLOAD-CLOUD%20BROWSER%20V0.4-3978E8?style=for-the-badge&labelColor=101827" alt="Download Cloud Browser V0.4">
+  </a>
+</p>
 
-Последний опубликованный релиз на момент обновления этой страницы — **Cloud Browser V0.4**.
+| Файл | Для чего |
+| --- | --- |
+| [Cloud.Browser.Setup.0.4.exe](https://github.com/XOXDabian/Cloud-Browser/releases/download/new/Cloud.Browser.Setup.0.4.exe) | Установщик для Windows |
+| [Все релизы](https://github.com/XOXDabian/Cloud-Browser/releases) | Другие опубликованные версии и файлы |
 
-- **[Скачать установщик Windows V0.4 (.exe)](https://github.com/XOXDabian/Cloud-Browser/releases/download/new/Cloud.Browser.Setup.0.4.exe)**
-- [Открыть описание релиза V0.4](https://github.com/XOXDabian/Cloud-Browser/releases/tag/new)
-- [Посмотреть предыдущие версии](https://github.com/XOXDabian/Cloud-Browser/releases)
+**Последний опубликованный релиз:** Cloud Browser V0.4 от 31 августа 2026 года.
 
-Перед установкой скачивайте файлы только со страницы официальных релизов этого репозитория.
+**Размер установщика:** около 94,2 МБ.
 
-## Технологии
+**SHA-256 установщика:**
+`0c3f215969325c411778117fc2d0f7fcff1f6826a13cda032580ee27f49c046e`
 
-Cloud Browser — настольное приложение на **Electron**.
+Скачивай установщик только из официального раздела Releases этого репозитория.
 
-- **Electron** — оболочка десктопного приложения и браузерная среда Chromium.
-- **JavaScript / Node.js** — типичный стек логики Electron-приложения.
-- **HTML и CSS** — технологии интерфейса, если они используются в исходной сборке.
+### Установка
 
-> Важно: в текущей ветке `main` нет исходников приложения и `package.json` — опубликованы README, LICENSE и ресурсы документации. Поэтому я не могу достоверно указать языки исходного кода и их проценты. После публикации настоящей папки проекта GitHub сам сформирует раздел **Languages** по файлам репозитория.
+1. Открой [Cloud Browser V0.4](https://github.com/XOXDabian/Cloud-Browser/releases/tag/new).
+2. Скачай `Cloud.Browser.Setup.0.4.exe`.
+3. Запусти установщик и следуй его инструкциям.
+4. После установки открой Cloud Browser.
 
+Если установка не запускается или появляется ошибка, создай обращение в [Issues](https://github.com/XOXDabian/Cloud-Browser/issues) и приложи скриншот.
 
 ## Возможности
 
-По описанию проекта и опубликованных релизов:
+Cloud Browser развивается как самостоятельный браузерный проект. В описании и опубликованных релизах перечислены следующие возможности:
 
-| Возможность | Описание |
-| --- | --- |
-| Вкладки и навигация | Открытие страниц, адресная строка, переход назад и вперёд, обновление |
-| Стеклянный интерфейс | Минималистичное оформление с тёмной темой |
-| Cloud Space | Боковая панель с историей, сохранёнными страницами и загрузками |
-| AdBlock | Встроенная базовая блокировка рекламы и управление фильтрами |
-| Приватность | Настройки защиты, управление доверенными и заблокированными доменами |
-| Пароли | Локальное сохранение паролей и их повторное заполнение |
-| Закладки | Сохранение избранных сайтов |
-| Расширения | Поддержка расширений описана начиная с версии 0.3; совместимость зависит от типа расширения |
-| Быстрые ссылки | Переход к часто используемым сайтам |
+- **Вкладки и навигация** — работа с несколькими страницами, адресная строка, переход назад и вперёд.
+- **Тёмный стеклянный интерфейс** — минималистичное оформление и атмосферная главная страница.
+- **Cloud Space** — боковая панель с быстрым доступом к истории, сохранённым страницам и загрузкам.
+- **AdBlock и приватность** — базовая фильтрация рекламы и трекеров, списки доверенных и заблокированных доменов.
+- **Пароли и закладки** — инструменты для хранения учётных данных и избранных сайтов.
+- **Приватный режим и VPN-переключатель** — режимы, заявленные в описании проекта.
+- **Расширения** — поддержка расширений описана в релизе 0.3; совместимость зависит от конкретного расширения.
 
-Наличие пункта в этом списке не означает, что каждая функция прошла независимое тестирование во всех сценариях. Если обнаружили неисправность, сообщите о ней через раздел Issues.
+Некоторые функции продолжают развиваться. Если что-то работает не так, сообщи об этом через Issues — обратная связь помогает улучшать браузер.
 
-## Что нового в V0.4
+## Что добавлено в V0.4
 
-Согласно описанию [релиза V0.4](https://github.com/XOXDabian/Cloud-Browser/releases/tag/new):
+По [описанию релиза V0.4](https://github.com/XOXDabian/Cloud-Browser/releases/tag/new):
 
-- Расширена базовая блокировка подозрительных и вредоносных доменов.
-- Добавлено управление списками доверенных и заблокированных доменов.
+- Расширены списки фильтрации рекламы и трекеров.
+- Добавлены списки доверенных и заблокированных доменов.
 - Улучшено отображение состояния безопасности сайта.
-- Обновлены фильтры рекламы и трекеров.
-- Улучшена проверка устанавливаемых расширений.
+- Усилены проверки при установке расширений.
 - Обновлены статусы вкладок, уведомления и элементы интерфейса.
 
-## Скриншоты
+## Дорожная карта
 
-Скриншоты интерфейса и демонстрации возможностей будут добавляться сюда по мере обновления проекта.
+Направления дальнейшей работы:
 
-## Сообщить об ошибке или предложить улучшение
+- Повысить стабильность загрузки файлов.
+- Довести контекстное меню до привычного поведения браузеров Chromium.
+- Улучшить сетевую и косметическую фильтрацию рекламы.
+- Продолжить улучшение скорости и отзывчивости интерфейса.
+- Публиковать подробные заметки к каждому релизу.
 
-Нашли проблему с вкладками, загрузками, контекстным меню, AdBlock или другим компонентом?
+Это планы развития, а не обещание, что функции уже доступны в текущей сборке.
 
-1. Откройте [Issues](https://github.com/XOXDabian/Cloud-Browser/issues).
-2. Создайте новое обращение.
-3. Укажите версию браузера и версию Windows.
-4. Опишите шаги, после которых возникает проблема.
-5. При возможности приложите скриншот и текст ошибки из консоли.
+## Обратная связь
 
-Для предложений по развитию используйте тот же раздел Issues.
+Нашёл ошибку или хочешь предложить функцию?
 
-## Исходный код и запуск для разработчиков
+- [Сообщить об ошибке](https://github.com/XOXDabian/Cloud-Browser/issues/new?template=bug_report.yml)
+- [Предложить идею](https://github.com/XOXDabian/Cloud-Browser/issues/new?template=feature_request.yml)
+- [Посмотреть все Issues](https://github.com/XOXDabian/Cloud-Browser/issues)
+- [Скачать последнюю опубликованную версию](https://github.com/XOXDabian/Cloud-Browser/releases)
 
-Cloud Browser создан на Electron. Однако **в текущей ветке `main` исходные файлы приложения и `package.json` пока не опубликованы**: сейчас в ней доступны README и LICENSE.
+При сообщении об ошибке укажи версию браузера, версию Windows, шаги воспроизведения и приложи скриншот, если возможно.
 
-Поэтому инструкции `npm install`, запуск проекта и сборку EXE нельзя проверить по содержимому текущей ветки. Чтобы разработчики могли воспроизвести сборку, необходимо добавить исходный проект, файл зависимостей и точные команды из используемого `package.json`.
+## Для разработчиков
 
-Если вы хотите помочь с разработкой, сначала проверьте доступные материалы в [репозитории](https://github.com/XOXDabian/Cloud-Browser) и [релизах](https://github.com/XOXDabian/Cloud-Browser/releases).
+Cloud Browser создан на Electron. В текущей ветке `main` опубликованы README и LICENSE, но исходные файлы приложения и `package.json` пока отсутствуют. Поэтому воспроизводимую сборку из исходников по содержимому этой ветки сейчас проверить нельзя.
+
+Если исходный код будет опубликован, сюда можно будет добавить точные инструкции по установке зависимостей, запуску и сборке.
 
 ## Лицензия
 
-Проект распространяется на условиях лицензии, указанной в файле [LICENSE](./LICENSE).
+Проект содержит лицензию [GNU AGPL v3.0](./LICENSE).
+
+---
+
+## English
+
+**Cloud Browser** is a desktop browser project built with Electron. It focuses on a clean dark interface, tabbed browsing, Cloud Space, and privacy tools.
+
+- **Download:** [Cloud Browser V0.4 for Windows](https://github.com/XOXDabian/Cloud-Browser/releases/download/new/Cloud.Browser.Setup.0.4.exe)
+- **All releases:** [GitHub Releases](https://github.com/XOXDabian/Cloud-Browser/releases)
+- **Report a bug:** [GitHub Issues](https://github.com/XOXDabian/Cloud-Browser/issues)
+
+The latest published build is V0.4, released on August 31, 2026. Some features are still under active development. Please report bugs with steps to reproduce and screenshots.
+
+The current `main` branch contains the project documentation and license; application source files and `package.json` are not currently published in this branch.
 
 ---
 
 <p align="center">
   **Cloud Browser — интернет становится проще.**
   <br>
-  <a href="https://github.com/XOXDabian/Cloud-Browser/releases">Скачать</a> ·
-  <a href="https://github.com/XOXDabian/Cloud-Browser/issues">Сообщить об ошибке</a> ·
-  <a href="https://github.com/XOXDabian/Cloud-Browser">GitHub</a>
+  Made with ☁️ by the Cloud Browser project.
 </p>
