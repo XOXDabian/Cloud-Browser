@@ -1,0 +1,70 @@
+name: Сообщить об ошибке
+description: Расскажи о проблеме в Cloud Browser
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за помощь Cloud Browser! Опиши проблему как можно точнее.
+  - type: input
+    id: version
+    attributes:
+      label: Версия Cloud Browser
+      description: Например, V0.4
+      placeholder: V0.4
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Версия Windows
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Где возникла проблема?
+      options:
+        - Установка или запуск
+        - Вкладки или навигация
+        - Загрузка файлов
+        - Контекстное меню
+        - AdBlock
+        - Приватность или безопасность
+        - Настройки или интерфейс
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить ошибку?
+      description: Напиши действия по порядку.
+      placeholder: |
+        1. Открываю Cloud Browser
+        2. Перехожу на сайт
+        3. Нажимаю ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Что происходит?
+      description: Укажи сообщение об ошибке, если оно есть.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Как должно работать?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты или дополнительные сведения
+      description: Перетащи сюда изображение или добавь лог, если он доступен.
+    validations:
+      required: false
