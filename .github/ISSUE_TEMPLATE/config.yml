@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Скачать Cloud Browser
+    url: https://github.com/XOXDabian/Cloud-Browser/releases
+    about: Официальные установщики и предыдущие версии.
+  - name: Посмотреть проект
+    url: https://github.com/XOXDabian/Cloud-Browser
+    about: Описание и информация о Cloud Browser.
