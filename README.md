@@ -14,13 +14,13 @@ Cloud Browser — настольный браузер на Electron с тёмн�
   <a href="https://github.com/XOXDabian/Cloud-Browser/issues">
     <img src="https://img.shields.io/github/issues/XOXDabian/Cloud-Browser?style=for-the-badge&label=Issues" alt="Issues">
   </a>
-  <a href="https://img.shields.io/github/stars/XOXDabian/Cloud-Browser">
+  <a href="https://github.com/XOXDabian/Cloud-Browser/stargazers">
     <img src="https://img.shields.io/github/stars/XOXDabian/Cloud-Browser?style=for-the-badge&logo=github" alt="GitHub stars">
   </a>
-  <a href="https://img.shields.io/github/forks/XOXDabian/Cloud-Browser">
+  <a href="https://github.com/XOXDabian/Cloud-Browser/fork">
     <img src="https://img.shields.io/github/forks/XOXDabian/Cloud-Browser?style=for-the-badge&logo=github" alt="GitHub forks">
   </a>
-  <a href="https://img.shields.io/github/downloads/XOXDabian/Cloud-Browser/total">
+  <a href="https://github.com/XOXDabian/Cloud-Browser/releases">
     <img src="https://img.shields.io/github/downloads/XOXDabian/Cloud-Browser/total?style=for-the-badge&label=Downloads" alt="GitHub downloads">
   </a>
   <a href="./LICENSE">
