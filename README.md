@@ -30,23 +30,21 @@
 
 ## Languages
 
-Процентное распределение по скриншоту GitHub Languages:
-
-<p>
-  <img src="https://img.shields.io/badge/Python-39.1%25-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python 39.1%">
-  <img src="https://img.shields.io/badge/CSS-20.3%25-663399?style=for-the-badge&logo=css3&logoColor=white" alt="CSS 20.3%">
-  <img src="https://img.shields.io/badge/HTML-19.1%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML 19.1%">
-  <img src="https://img.shields.io/badge/JavaScript-17.1%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript 17.1%">
-  <img src="https://img.shields.io/badge/Batchfile-4.4%25-C1F12E?style=for-the-badge&logo=windows-terminal&logoColor=111111" alt="Batchfile 4.4%">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/XOXDabian/Cloud-Browser/main/assets/languages.svg" alt="Cloud Browser language breakdown" width="900">
 </p>
 
-- **Python** — логика и вспомогательные инструменты проекта.
-- **CSS** — стили интерфейса.
-- **HTML** — структура пользовательского интерфейса.
-- **JavaScript** — интерактивность и логика браузера.
-- **Batchfile** — вспомогательные Windows-скрипты.
+| Язык | Доля |
+| --- | ---: |
+| Python | 39.1% |
+| CSS | 20.3% |
+| HTML | 19.1% |
+| JavaScript | 17.1% |
+| Batchfile | 4.4% |
 
-> Проценты перенесены с предоставленного скриншота. Это визуальные бейджи в README, а не автоматически рассчитываемая диаграмма GitHub Linguist. GitHub строит собственную диаграмму по языкам файлов, доступных в репозитории.
+Распределение перенесено с предоставленного скриншота GitHub Languages и оформлено отдельной SVG-диаграммой в стиле GitHub.
+
+**Примечание:** в текущей ветке `main` исходный код браузера пока не опубликован — доступны README, LICENSE и эта диаграмма. Поэтому GitHub не может автоматически пересчитать статистику языков по настоящим файлам приложения. После публикации исходников встроенная диаграмма Languages будет рассчитываться GitHub отдельно, а эту иллюстрацию нужно будет обновить по новым данным.
 
 
 ## Возможности
